@@ -150,6 +150,8 @@
      &,       vis=1.4e-5_kp, rnu=1.51e-5_kp, visi=one/vis               &
      &,       log01=log(0.01_kp), log05=log(0.05_kp), log07=log(0.07_kp)
 
+      real(kind=kind_phys) :: test_unused1, test_unused2
+
 !     parameter (charnock=.014,ca=.4)!c ca is the von karman constant
 !     parameter (alpha=5.,a0=-3.975,a1=12.32,b1=-7.755,b2=6.041)
 !     parameter (a0p=-7.941,a1p=24.75,b1p=-8.705,b2p=7.899,vis=1.4e-5)
